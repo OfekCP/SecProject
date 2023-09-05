@@ -1,0 +1,210 @@
+.menulogos{
+    float: left;
+    width: 85px;
+}
+.searchlogo{
+
+    float: left;
+    width: 600px;
+    position: relative;
+    z-index: 3;
+   
+}
+#pslogo{
+    position: relative;
+    top: 5px;
+    left: 700px;
+}
+#searchlogo{
+    border-radius: 30px;
+    position: relative;
+    top: 5px;
+}
+#enter{
+    font-size: 30px;
+    background-color: rgb(4, 68, 164);
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: 9px;
+    left: 700px;
+    
+}
+#menulogo:hover{
+    height: 60px;
+    width: 60px;
+}
+#menulogo{border-radius: 20px;}
+
+#enter:hover{height: 60px;
+     width: 60px;
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-bottom: 10px;
+     padding-top: 5px;
+     opacity: 0.8;
+    }
+    #welcome{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    #logo12{
+position: absolute;
+left: 895px;
+bottom: 555px;
+    }
+    #plusintro{
+        font-size: 25px;
+     
+    }
+.pic{
+    
+    width: 270px;
+}
+#img{border-radius: 20px;}
+#img:hover{
+    height: 415px;
+    width: 300px;
+    opacity: 0.5;
+    transition: 1s;
+}
+#img1{border-radius: 20px;}
+#img1:hover{
+    height: 415px;
+    width: 300px;
+    opacity: 0.5;
+    transition: 1s;
+}
+#theme{
+    margin-right: 200px;
+}
+#plus1:hover{
+    height: 430px;
+    width: 280px;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+#plus2:hover{
+    height: 430px;
+    width: 280px;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+#plus3:hover{
+    height: 430px;
+    width: 280px;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+#game1:hover{    height: 410px;
+    width: 260px;
+    opacity: 0.5;
+    transition: 0.7s;}
+    #game2:hover{    height: 410px;
+        width: 260px;
+        opacity: 0.5;
+        transition: 0.7s;}
+        #game3:hover{    height: 410px;
+            width: 260px;
+            opacity: 0.5;
+            transition: 0.7s;}
+            #game4:hover{    height: 410px;
+                width: 260px;
+                opacity: 0.5;
+                transition: 0.7s;}
+                #game5:hover{    height: 410px;
+                    width: 260px;
+                    opacity: 0.5;
+                    transition: 0.7s;}
+
+
+
+#txt{
+    opacity: 0;
+    position : absolute;
+    top: 20px;
+    border-radius: 5px;
+    border-color: black;
+   
+}
+
+#searchlogo{
+    cursor: pointer;
+    
+}
+.searchlogo:hover #txt{opacity: 1;}
+body{
+    background-color: rgba(64, 98, 184, 0);
+}
+#pslogo{
+    border-radius: 20px;
+}
+div .plus{
+    border-radius: 20px;
+}
+#plus1{border-radius: 20px;}
+#plus2{border-radius: 20px;}
+#plus3{border-radius: 20px;}
+#game1{border-radius: 20px;}
+#game2{border-radius: 20px;}
+#game3{border-radius: 20px;}
+#game4{border-radius: 20px;}
+#game5{border-radius: 20px;}
+
+
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/blue-monochrome-theme-4k-ps4-ucx5cmlheedmx92c.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+
+
+
+.int {
+
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+.int img:hover + img {
+    width: 1px; 
+    height: 200px;
+  }
+#text{
+display: flex;
+justify-content: center;
+gap: 140px;
+}
+#theme{
+
+    background-attachment: fixed;
+}
+#games{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  
+}
+.pluses{
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.all{
+width: 98vw;
+height: 60px;
+background-color: aliceblue;
+border-radius: 10px;
+}
+.fix{
+    position: fixed;
+}
